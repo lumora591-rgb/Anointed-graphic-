@@ -418,3 +418,23 @@ footer{
 .faq-answer.show{
     display:block;
 }
+
+.portfolio-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:180px;
+    background:#222;
+    color:#fff;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:22px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.portfolio-card:hover{
+    background:#FFD700;
+    color:#000;
+    transform:translateY(-8px);
+}
