@@ -15,3 +15,12 @@ form.addEventListener("submit", function(e){
     alert("Thank you! Your message has been received.");
     form.reset();
 });
+
+const questions = document.querySelectorAll(".faq-question");
+
+questions.forEach(question => {
+    question.addEventListener("click", () => {
+        const answer = question.nextElementSibling;
+        answer.classList.toggle("show");
+    });
+});
