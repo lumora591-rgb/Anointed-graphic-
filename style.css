@@ -379,3 +379,42 @@ footer{
     color:#FFD700;
     margin-bottom:20px;
     }
+
+.faq{
+    padding:80px 10%;
+    background:#181818;
+}
+
+.faq h2{
+    text-align:center;
+    color:#FFD700;
+    margin-bottom:40px;
+}
+
+.faq-item{
+    margin-bottom:15px;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.faq-question{
+    width:100%;
+    padding:18px;
+    background:#222;
+    color:white;
+    border:none;
+    text-align:left;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.faq-answer{
+    display:none;
+    background:#2b2b2b;
+    color:#ddd;
+    padding:18px;
+}
+
+.faq-answer.show{
+    display:block;
+}
