@@ -373,3 +373,9 @@ footer{
 .contact-form button:hover{
     background:#fff;
 }
+
+.service-card i{
+    font-size:50px;
+    color:#FFD700;
+    margin-bottom:20px;
+    }
