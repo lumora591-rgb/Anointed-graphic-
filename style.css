@@ -717,3 +717,46 @@ footer{
     color:#ddd;
     line-height:1.7;
 }
+
+.clients{
+    padding:80px 10%;
+    background:#1b1b1b;
+    text-align:center;
+}
+
+.clients h2{
+    color:#FFD700;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.clients p{
+    color:#ddd;
+    max-width:700px;
+    margin:0 auto 40px;
+    line-height:1.8;
+}
+
+.client-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.client-card{
+    background:#222;
+    border:2px dashed #FFD700;
+    border-radius:12px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#bbb;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.client-card:hover{
+    border-style:solid;
+    transform:translateY(-5px);
+}
