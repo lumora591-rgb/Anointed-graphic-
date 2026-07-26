@@ -24,3 +24,11 @@ questions.forEach(question => {
         answer.classList.toggle("show");
     });
 });
+
+window.addEventListener("load", () => {
+
+    setTimeout(() => {
+        document.getElementById("loader").style.display = "none";
+    }, 1500);
+
+});
