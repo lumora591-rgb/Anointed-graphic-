@@ -168,3 +168,47 @@ body{
     background:#333;
     transform:scale(1.03);
     }
+.contact{
+    padding:80px 10%;
+    text-align:center;
+    background:#111;
+}
+
+.contact h2{
+    color:#FFD700;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.contact p{
+    color:#ddd;
+    margin-bottom:20px;
+}
+
+.contact-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.contact-btn:hover{
+    transform:scale(1.05);
+}
+
+.phone{
+    margin-top:20px;
+    font-size:18px;
+    color:#FFD700;
+}
+
+footer{
+    background:#000;
+    color:#aaa;
+    text-align:center;
+    padding:20px;
+}
